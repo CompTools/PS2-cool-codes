@@ -5,9 +5,9 @@ This is a group project.
 You should work in groups of 2 to 4 (not alone and not more than 4). If this is a problem, please let me know ahead of time.
 
 ### Please enter the names of the group members here:
-1. 
-1. 
-1. 
+1. Giselle Rojas
+1. Nathalie Alomar
+1. Jonathan Gitzendanner
 1. 
 
 ## Due date
@@ -22,7 +22,7 @@ I have provided a dataset that you will use for this. The dataset and it's descr
 ## Instructions
 
 The goal of this project is to write a Bash script that does the following:
-1. Counts the number of flights that were delayed more than 15 minutes into or out of Gainesville, FL (airport code GNV) during the timeframe covered by the dataset. (*2 points*)
+1. Counts the number of flights that were delayed more than 15 minutes into or out of Gainesville, FL (airport code GNV) during the timeframe covered by the dataset. (*2 points*) 
 2. Produce a table (text is fine) with the data to fill in this table (*13 points*):
 
 
