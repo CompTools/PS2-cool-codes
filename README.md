@@ -6,9 +6,9 @@ You should work in groups of 2 to 4 (not alone and not more than 4). If this is 
 
 ### Please enter the names of the group members here:
 1. Giselle Rojas
-1. Nathalie Alomar
-1. Jonathan Gitzendanner
-1. 
+2. Nathalie Alomar
+3. Jonathan Gitzendanner
+ 
 
 ## Due date
 **It is my hope that is can be turned in on Friday, May 22nd**, but I will take it until May 26th at the latest.
