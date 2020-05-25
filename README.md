@@ -27,12 +27,12 @@ The goal of this project is to write a Bash script that does the following:
 
 
 GNV to: | Total flights | Total flights delayed (>15min) | Total flights delayed due to Weather
---------|---------------|------------------------|-------------------------------
-ATL |
-CLT |
-MIA |
+----------|-------------|--------------------------------|----------------------------
+ATL |1476 | 262         |
+CLT | 476 | 90          |
+MIA | 205 | 
 
-3. Within a function, print a list of all unique airport codes contained in the dataset. (*3 points*)
+3. Within a function, print a list of all unique airport codes contained in the dataset. (*3 points*) grep [A-Z] /ufrc/bsc4452/share/Class_Files/data/flights.May2017-Apr2018.csv | cut -f 3 -d "," | sort | uniq
 
 4. Within a function list the cities in Florida that have airports in the dataset. (*2 points*)
 
