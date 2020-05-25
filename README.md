@@ -34,7 +34,7 @@ MIA | 205 | 33    | 0   |
 
 3. Within a function, print a list of all unique airport codes contained in the dataset. (*3 points*) grep [A-Z] /ufrc/bsc4452/share/Class_Files/data/flights.May2017-Apr2018.csv | cut -f 3 -d "," | sort | uniq
 
-4. Within a function list the cities in Florida that have airports in the dataset. (*2 points*) 
+4. Within a function list the cities in Florida that have airports in the dataset. (*2 points*) grep FL.*FL.*FL.*FL /ufrc/bsc4452/share/Class_Files/data/flights.May2017-Apr2018.csv | cut -f 4,5 -d "," | sort | uniq
 
 **Bonus question:**  Asks for user input (see chapter 28) to enter either a airport code or city, state name and then calculates the number of flights as in question 1. (*5 points extra credit*)
 
