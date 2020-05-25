@@ -30,7 +30,7 @@ GNV to: | Total flights | Total flights delayed (>15min) | Total flights delayed
 ----|-------------|--------------------------------|----------------------------
 ATL |1476 | 262   | 1229|
 CLT | 476 | 90    | 1   |
-MIA | 205 | 33    | 33  |
+MIA | 205 | 33    | 0   |
 
 3. Within a function, print a list of all unique airport codes contained in the dataset. (*3 points*) grep [A-Z] /ufrc/bsc4452/share/Class_Files/data/flights.May2017-Apr2018.csv | cut -f 3 -d "," | sort | uniq
 
