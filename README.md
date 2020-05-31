@@ -23,6 +23,9 @@ I have provided a dataset that you will use for this. The dataset and it's descr
 
 The goal of this project is to write a Bash script that does the following:
 1. Counts the number of flights that were delayed more than 15 minutes into or out of Gainesville, FL (airport code GNV) during the timeframe covered by the dataset. (*2 points*) 804
+
+**Grading: 2pts**
+
 2. Produce a table (text is fine) with the data to fill in this table (*13 points*):
 
 
@@ -32,9 +35,15 @@ ATL |1476 | 262   | 1229|
 CLT | 476 | 90    | 1   |
 MIA | 205 | 33    | 0   |
 
+**Grading note: Your grep worked, but you had a logic flaw in the if statements. 0.00 is ontime, but blank is also ontime--your script counted blanks as late. Also seems like you did different things to answer the question for each city.** 
+
 3. Within a function, print a list of all unique airport codes contained in the dataset. (*3 points*) grep [A-Z] /ufrc/bsc4452/share/Class_Files/data/flights.May2017-Apr2018.csv | cut -f 3 -d "," | sort | uniq
 
+**Grading: 3pts**
+
 4. Within a function list the cities in Florida that have airports in the dataset. (*2 points*) grep FL.*FL.*FL.*FL /ufrc/bsc4452/share/Class_Files/data/flights.May2017-Apr2018.csv | cut -f 4,5 -d "," | sort | uniq
+
+**Grading: 2pts. Your grep is kind of complex and misses West Palm Beach**
 
 **Bonus question:**  Asks for user input (see chapter 28) to enter either a airport code or city, state name and then calculates the number of flights as in question 1. (*5 points extra credit*)
 
@@ -55,16 +64,17 @@ For question 2, you will receive points for:
 
 Rubric item | Points | Your score
 ------------|--------|-----------
-Using github| 1 point |  ** **
-Having at least one commit from each member of the team | 2 points | ** **
-Using meaningful commit messages | 2 points | ** **
-Using functions correctly | 2 points | ** **
-Using comments in code | 2 points | ** **
-Using spacing to make code readable | 2 points |** **
-Getting the correct answer | 2 points | ** **
+Using github| 1 point |  **1**
+Having at least one commit from each member of the team | 2 points | **2**
+Using meaningful commit messages | 2 points | **2-in the future, use something more than "updated X". What was changed??**
+Using functions correctly | 2 points | **0--no functions**
+Using comments in code | 2 points | **2--no comments but fairly clear**
+Using spacing to make code readable | 2 points |**2**
+Getting the correct answer | 2 points | **1.5**
+Total for question 2 | 13 points | 11.5
 
-**Extra credit:**
+**Extra credit: no extra credit**
 
 
 **Total points:**
- /20
+ 18.5/20
